@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "httpsmugglingtool",
+  "version": "1.0.0",
+  "description": "The tool allows to detect malformed requests aimed at compromising fronted server mainly in microservices architecture.",
+  "main": "httpSmugglingTool.js",
+  "dependencies": {
+    "fetch-blob": "^3.1.5",
+    "formdata-polyfill": "^4.0.10",
+    "node-fetch": "^3.2.3",
+    "data-uri-to-buffer": "^4.0.0",
+    "node-domexception": "^1.0.0",
+    "web-streams-polyfill": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Http",
+    "Smuggling",
+    "Tool",
+    "node.js",
+    "microservises",
+    "attack"
+  ],
+  "author": "SNE group",
+  "license": "ISC"
+}
